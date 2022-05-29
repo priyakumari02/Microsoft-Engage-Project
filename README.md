@@ -37,7 +37,7 @@ Detect & Recognize Faces from Live Feed, Static Image. Attendace is marked & sav
 
 # 🏃Getting Sttarted
 ### Get it up & running
--Download our program from [here](https://github.com/priyakumari02/Microsoft-Engage-Project/archive/master.zip)
+- Download the program from [here](https://github.com/priyakumari02/Microsoft-Engage-Project/archive/master.zip)
 - Unzip the downloaded zip file
 - Install all the dependencies from the requirement.txt
 ### Building the source code
