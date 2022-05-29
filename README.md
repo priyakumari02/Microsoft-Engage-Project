@@ -17,7 +17,7 @@ A browser-based application to demonstrate application of Face Recognition techn
         <li><a href="#Technologies-used"> Technologies used</a></li>
       </ul>
     </li>
-      <a href="#Getting-Sttarted">Getting Started</a>
+      <a href="#Getting-Started">Getting Started</a>
       <ul>
         <li><a href="#Requirements">Requirements</a></li>
         <li><a href="#Installation">Installation</a></li>
@@ -27,8 +27,8 @@ A browser-based application to demonstrate application of Face Recognition techn
       <a href="#Documentation">Documentation</a>
       <ul>
         <li><a href="#How-it-works?">How it works?</a></li>
+        <li><a href="#resources-used">Resources Used</a></li>
       </ul>
-    <a href="#resources-used">Resources Used</a></li>
   </ol>
 </details>
 
@@ -89,12 +89,10 @@ pip install --user -r requirements.txt
 
 ## 🤔 How it works?
 - Face is detected by Haar Cascade algorithm
-- Face detected is encoded by 128 measurements & saved for recognition
-- When program is initiated User's face is similar detected & encoded by 128 measurements
-- Later these encoded measurements are compared for recognizing face from Database
-- If encodings are matched, Attendance is written in Csv File with Name & Time
+- Face detected is encoded and saved for recognition
+- If encodings are matched from the datset, Attendance is written in Csv File with Name and Time
 
-# 📗Resources Used
+## 📗Resources Used
 
 ### Algorithm
 
