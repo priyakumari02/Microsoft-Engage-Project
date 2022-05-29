@@ -23,20 +23,25 @@ A browser-based application to demonstrate application of Face Recognition techn
         <li><a href="##Installation">Installation</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#📚Documentation">Documentation</a>
+      <ul>
+        <li><a href="##🤔 How it works?">How it works?</a></li>
+      </ul>
     <a href="#📗resources-used">Resources Used</a></li>
   </ol>
 </details>
 
 # Introduction
 
-Detect & Recognize Faces from Live Feed, Static Image. Attendace is marked & saved in Csv format. Graphical User Interface is designed & build using [Tkinter](https://docs.python.org/3/library/tkinter.html) and Library [OpenCV](https://opencv.org/).
+Detect & Recognize Faces from Live Feed, Static Image. Attendace is marked & saved in Csv format. Graphical User Interface is designed & build using [Tkinter](https://docs.python.org/3/library/tkinter.html) GUI and Library [OpenCV](https://opencv.org/).
 
 
-## Technologies used
+## 💻Technologies used
 #### Programming Languages : <img src="https://forthebadge.com/images/badges/made-with-python.svg" alt="Python"> 
 #### Databases : <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"> 
-#### Libraries : <img src="https://opencv.org/" alt="OpenCV">
-#### Frameworks : <img src="https://docs.python.org/3/library/tkinter.html" alt="Tkinter">
+#### Libraries : [OpenCV](https://opencv.org/).
+#### Frameworks :[Tkinter](https://docs.python.org/3/library/tkinter.html)
 #### Version Control : <img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>  
 
 # 🏃Getting Sttarted
@@ -59,4 +64,12 @@ git clone https://github.com/priyakumari02/Microsoft-Engage-Project.git
 ```sh
 pip install -r requirements.txt
 ```
+or
+```sh
+pip install --user -r requirements.txt 
+```
+# 📚Documentation
+## 🤔 How it works?
 # 📗Resources Used
+
+Thank you ! Microsoft Team for such a wonderful mentorship program ❤️
