@@ -1,7 +1,7 @@
 # <h1 align="center"> Microsoft-Engage-Project <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png" alt="Logo" width="25" height="25">
 
   > [Live Demo](https://youtu.be/w6271lMbUZY) <br>
-  > [Desktop App](https://drive.google.com/drive/folders/1YoQuccP8JjszRApLEOTeph60DwF_VxUI?usp=sharing) <br>
+  > [Desktop App]([https://drive.google.com/drive/folders/1YoQuccP8JjszRApLEOTeph60DwF_VxUI?usp=sharing](https://drive.google.com/drive/folders/1lyTn19RgnyZkyFGtCHysfAXCH_7_m-AU?usp=sharing)) <br>
   > [Workflow](https://drive.google.com/drive/folders/1mYyBT904klHHc_wApRjrhLz7jtPlqjzX?usp=sharing)
 </h1>
 Face Recognition for Tracking Attendance<br>
@@ -43,6 +43,7 @@ Detect & Recognize Faces from Live Feed, Static Image. Attendace is marked & sav
 ![gifmain](https://user-images.githubusercontent.com/77202746/170883600-d3371c8e-6548-4f1f-92cb-6e567e9d61dd.gif)
 
 ### Student Details 
+|------|------|------|------|------|
 #### Save data| Update data| Delete data | Reset data |Take Photo Samples
 ![gifstudentdetails](https://user-images.githubusercontent.com/77202746/170884146-9cd73ed4-2732-4a2f-b327-dcfb01f143df.gif)
 
@@ -56,7 +57,8 @@ Detect & Recognize Faces from Live Feed, Static Image. Attendace is marked & sav
 #### Attendance is written in Csv File with Name and Time and shown
 ![gif attendance pannel](https://user-images.githubusercontent.com/77202746/170884657-c40a854e-a457-40c0-914a-2f201294c133.gif)
 
-### Photos | ### Exit System
+### Photos 
+### Exit System
 
 ## 💻Technologies used
 
