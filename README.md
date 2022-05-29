@@ -87,12 +87,12 @@ pip install --user -r requirements.txt
 
 # 📚Documentation
 
-## 🤔 How it works?
+### 🤔 How it works?
 - Face is detected by Haar Cascade algorithm
 - Face detected is encoded and saved for recognition
 - If encodings are matched from the datset, Attendance is written in Csv File with Name and Time
 
-## 📗Resources Used
+### 📗Resources Used
 
 ### Algorithm
 
