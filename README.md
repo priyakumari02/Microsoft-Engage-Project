@@ -37,6 +37,9 @@ A browser-based application to demonstrate application of Face Recognition techn
 Detect & Recognize Faces from Live Feed, Static Image. Attendace is marked & saved in Csv format. Graphical User Interface is designed & build using [Tkinter](https://docs.python.org/3/library/tkinter.html) GUI and Library [OpenCV](https://opencv.org/).
 
 ## Features
+### Landing Page
+![gifmain](https://user-images.githubusercontent.com/77202746/170883600-d3371c8e-6548-4f1f-92cb-6e567e9d61dd.gif)
+
 
 ## 💻Technologies used
 
@@ -50,7 +53,7 @@ Detect & Recognize Faces from Live Feed, Static Image. Attendace is marked & sav
 
 #### Version Control : <img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
 
-# 🏃Getting Sttarted
+# 🏃Getting Started
 
 ## Requirements
 
