@@ -44,7 +44,7 @@ Detect & Recognize Faces from Live Feed, Static Image. Attendace is marked & sav
 ![gifmain](https://user-images.githubusercontent.com/77202746/170883600-d3371c8e-6548-4f1f-92cb-6e567e9d61dd.gif)
 
 ### Student Details 
-|------|------|------|------|------|
+|:------:|:------:|:------:|:------:|:------:|
 #### Save data| Update data| Delete data | Reset data |Take Photo Samples
 ![gifstudentdetails](https://user-images.githubusercontent.com/77202746/170884146-9cd73ed4-2732-4a2f-b327-dcfb01f143df.gif)
 
