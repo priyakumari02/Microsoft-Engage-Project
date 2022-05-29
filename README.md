@@ -4,10 +4,9 @@
   > [Desktop App](https://drive.google.com/drive/folders/1lyTn19RgnyZkyFGtCHysfAXCH_7_m-AU?usp=sharing) <br>
   > [Workflow](https://drive.google.com/drive/folders/1mYyBT904klHHc_wApRjrhLz7jtPlqjzX?usp=sharing)<br/>
 </h1>
-<br/>
 Face Recognition for Tracking Attendance<br>
 A browser-based application to demonstrate application of Face Recognition technology.
-<br/>
+<br><br>
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>📋Table of Contents</summary>
