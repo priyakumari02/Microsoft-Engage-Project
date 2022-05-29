@@ -61,7 +61,7 @@ class Face_Recognition_System:
             fg='#F2F2F2',
             activebackground='#2FA4FF',
             activeforeground='white'
-        ).place(x=500, y=355)
+        ).place(x=500, y=445)
 
         b1_5=Button(
             self.master,
@@ -75,7 +75,7 @@ class Face_Recognition_System:
             fg='#F2F2F2',
             activebackground='#2FA4FF',
             activeforeground='white'
-        ).place(x=500, y=445)
+        ).place(x=500, y=355)
 
         b1_6=Button(
             self.master,

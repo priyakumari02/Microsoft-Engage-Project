@@ -157,13 +157,13 @@ class Student_Details:
 
 
 # Faculty Name
-        # StudentFaculty_Label = Label(Student_frame, text="Faculty Name ", font=(
-        #     "Roboto Mono", 14, "bold"), fg="black", bg="white", pady=20, padx=10)
-        # StudentFaculty_Label.grid(row=3, column=2, sticky=W, padx=10)
+        StudentFaculty_Label = Label(Student_frame, text="Faculty Name ", font=(
+            "Roboto Mono", 14, "bold"), fg="black", bg="white", pady=20, padx=10)
+        StudentFaculty_Label.grid(row=3, column=2, sticky=W, padx=10)
 
-        # StudentFaculty_entry = ttk.Entry(
-        #     Student_frame, textvariable=self.var_faculty, width=20, font=("Roboto Mono", 15))
-        # StudentFaculty_entry.grid(row=3, column=3, sticky=W)
+        StudentFaculty_entry = ttk.Entry(
+            Student_frame, textvariable=self.var_faculty, width=20, font=("Roboto Mono", 15))
+        StudentFaculty_entry.grid(row=3, column=3, sticky=W)
 
 # Address
         StudentAddress_Label = Label(Student_frame, text="Address ", font=(
@@ -192,13 +192,12 @@ class Student_Details:
 # save
         save_btn = Button(Button_frame, text="Save", command=self.add_data, width=20, font=(
             "Roboto Mono", 12, "bold"), cursor="hand2", activebackground="#1EAE98", bg="#77D970", fg="white")
-        save_btn.grid(row=0, column=0)
+        save_btn.grid(row=0, column=0,)
 
 # update
         update_btn = Button(Button_frame, command=self.update_data, text="Update", width=20, font=(
             "Roboto Mono", 12, "bold"), cursor="hand2", activebackground="#1EAE98", bg="#77D970", fg="white")
         update_btn.grid(row=0, column=1)
-
 # delete button
         delete_btn = Button(Button_frame, command=self.delete_data, text="Delete", width=20, font=(
             "Roboto Mono", 12, "bold"), cursor="hand2", activebackground="#1EAE98", bg="#77D970", fg="white")
@@ -213,14 +212,9 @@ class Student_Details:
         Button_frame1.place(x=3, y=360, width=830, height=40)
 
 # take Photo
-        take_photo_btn = Button(Button_frame1, command=self.generate_dataset, text="Take photo", width=40, font=(
+        take_photo_btn = Button(Button_frame1, command=self.generate_dataset, text="Take photo", width=85, font=(
             "Roboto Mono", 12, "bold"), cursor="hand2", activebackground="#1EAE98", bg="#77D970", fg="white")
         take_photo_btn.grid(row=1, column=0)
-
-# Update Photo
-        update_photo_btn = Button(Button_frame1, text="Update Photo", width=41, font=(
-            "Roboto Mono", 12, "bold"), cursor="hand2", activebackground="#1EAE98", bg="#77D970", fg="white")
-        update_photo_btn.grid(row=1, column=1)
 
 # Right label frame
         Right_frame = LabelFrame(Main_frame, bd=2, relief=RIDGE, bg="#2FA4FF", font=(

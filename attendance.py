@@ -31,6 +31,7 @@ class Attendance:
         self.var_time=StringVar()
         self.var_date=StringVar()
         self.var_attend=StringVar()
+        self.var_faculty=StringVar()
 
         #title section
         title_lbl = Label(self.master,text="Welcome to Attendance Pannel",font=("verdana",40,"bold"),fg="white", bg="#151D3B")
@@ -52,54 +53,61 @@ class Attendance:
 
         #Student id
         studentId_label = Label(left_frame,text="Student ID",font=("verdana",12,"bold"),fg="white",bg="#151D3B")
-        studentId_label.grid(row=0,column=0,padx=5,pady=25,sticky=W)
+        studentId_label.grid(row=0,column=0,padx=5,pady=20,sticky=W)
 
         studentId_entry = ttk.Entry(left_frame,textvariable=self.var_id,width=30,font=("verdana",12,"bold"))
-        studentId_entry.grid(row=0,column=1,padx=5,pady=25,sticky=W)
+        studentId_entry.grid(row=0,column=1,padx=5,pady=20,sticky=W)
 
         #Studnet Name
         student_name_label = Label(left_frame,text="Student Name",font=("verdana",12,"bold"),fg="white",bg="#151D3B")
-        student_name_label.grid(row=2,column=0,padx=5,pady=25,sticky=W)
+        student_name_label.grid(row=2,column=0,padx=5,pady=20,sticky=W)
 
         student_name_entry = ttk.Entry(left_frame,textvariable=self.var_name,width=30,font=("verdana",12,"bold"))
-        student_name_entry.grid(row=2,column=1,padx=5,pady=25,sticky=W)
+        student_name_entry.grid(row=2,column=1,padx=5,pady=20,sticky=W)
 
         #Student Roll
         student_roll_label = Label(left_frame,text="Roll No.",font=("verdana",12,"bold"),fg="white",bg="#151D3B")
         student_roll_label.grid(row=1,column=0,padx=10,pady=25,sticky=W)
 
         student_roll_entry = ttk.Entry(left_frame,textvariable=self.var_roll,width=30,font=("verdana",12,"bold"))
-        student_roll_entry.grid(row=1,column=1,padx=5,pady=25,sticky=W)
+        student_roll_entry.grid(row=1,column=1,padx=5,pady=20,sticky=W)
 
         # Department
         dep_label = Label(left_frame,text="Department",font=("verdana",12,"bold"),fg="white",bg="#151D3B")
-        dep_label.grid(row=3,column=0,padx=5,pady=25,sticky=W)
+        dep_label.grid(row=3,column=0,padx=5,pady=20,sticky=W)
 
         dep_entry = ttk.Entry(left_frame,textvariable=self.var_dep,width=30,font=("verdana",12,"bold"))
         dep_entry.grid(row=3,column=1,padx=5,pady=25,sticky=W)
 
         #time
         time_label = Label(left_frame,text="Time",font=("verdana",12,"bold"),fg="white",bg="#151D3B")
-        time_label.grid(row=4,column=0,padx=5,pady=25,sticky=W)
+        time_label.grid(row=4,column=0,padx=5,pady=20,sticky=W)
 
         time_entry = ttk.Entry(left_frame,textvariable=self.var_time,width=30,font=("verdana",12,"bold"))
-        time_entry.grid(row=4,column=1,padx=5,pady=25,sticky=W)
+        time_entry.grid(row=4,column=1,padx=5,pady=20,sticky=W)
 
         #Date 
-        date_label = Label(left_frame,text="Date:",font=("verdana",12,"bold"),fg="white",bg="#151D3B")
-        date_label.grid(row=5,column=0,padx=5,pady=25,sticky=W)
+        date_label = Label(left_frame,text="Date",font=("verdana",12,"bold"),fg="white",bg="#151D3B")
+        date_label.grid(row=5,column=0,padx=5,pady=20,sticky=W)
 
         date_entry = ttk.Entry(left_frame,textvariable=self.var_date,width=30,font=("verdana",12,"bold"))
-        date_entry.grid(row=5,column=1,padx=5,pady=25,sticky=W)
+        date_entry.grid(row=5,column=1,padx=5,pady=20,sticky=W)
+
+        #Faculty 
+        fact_label = Label(left_frame,text="Faculty",font=("verdana",12,"bold"),fg="white",bg="#151D3B")
+        fact_label.grid(row=5,column=0,padx=5,pady=20,sticky=W)
+
+        fact_entry = ttk.Entry(left_frame,textvariable=self.var_faculty,width=30,font=("verdana",12,"bold"))
+        fact_entry.grid(row=5,column=1,padx=5,pady=20,sticky=W)
 
         #Attendance
         student_attend_label = Label(left_frame,text="Attend-status",font=("verdana",12,"bold"),fg="white",bg="#151D3B")
-        student_attend_label.grid(row=6,column=0,padx=5,pady=25,sticky=W)
+        student_attend_label.grid(row=6,column=0,padx=5,pady=20,sticky=W)
 
         attend_combo=ttk.Combobox(left_frame,textvariable=self.var_attend,width=30,font=("verdana",12,"bold"),state="readonly")
         attend_combo["values"]=("Status","Present","Absent")
         attend_combo.current(0)
-        attend_combo.grid(row=6,column=1,padx=1,pady=25,sticky=W)
+        attend_combo.grid(row=6,column=1,padx=1,pady=20,sticky=W)
 
        
         # =========================button section========================
@@ -140,7 +148,7 @@ class Attendance:
         scroll_y = ttk.Scrollbar(table_frame,orient=VERTICAL)
 
         #create table 
-        self.attendanceReport = ttk.Treeview(table_frame,column=("ID","RollNo","Name","Time","Date","Attend"),xscrollcommand=scroll_x.set,yscrollcommand=scroll_y.set)
+        self.attendanceReport = ttk.Treeview(table_frame,column=("ID","RollNo","Name","Time","Date","Faculty","Attend"),xscrollcommand=scroll_x.set,yscrollcommand=scroll_y.set)
 
         scroll_x.pack(side=BOTTOM,fill=X)
         scroll_y.pack(side=RIGHT,fill=Y)
@@ -152,6 +160,7 @@ class Attendance:
         self.attendanceReport.heading("RollNo",text="Roll No.")
         self.attendanceReport.heading("Time",text="Time")
         self.attendanceReport.heading("Date",text="Date")
+        self.attendanceReport.heading("Faculty",text="Faculty")
         self.attendanceReport.heading("Attend",text="Attend-status")
         self.attendanceReport["show"]="headings"
 
@@ -162,6 +171,7 @@ class Attendance:
         self.attendanceReport.column("RollNo",width=100)
         self.attendanceReport.column("Time",width=100)
         self.attendanceReport.column("Date",width=100)
+        self.attendanceReport.column("Faculty",width=100)
         self.attendanceReport.column("Attend",width=100)
         
         self.attendanceReport.pack(fill=BOTH,expand=1)
@@ -177,6 +187,7 @@ class Attendance:
         self.var_dep.set("")
         self.var_time.set("")
         self.var_date.set("")
+        self.var_faculty.set("")
         self.var_attend.set("Status")
 
     # =========================Fetch Data  ===============
@@ -230,6 +241,7 @@ class Attendance:
         self.var_dep.set(data[3]),
         self.var_time.set(data[4]),
         self.var_date.set(data[5]),
+        self.var_faculty.set(data[5]),
         self.var_attend.set(data[6])  
 
 
