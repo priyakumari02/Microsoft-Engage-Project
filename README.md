@@ -10,33 +10,33 @@ A browser-based application to demonstrate application of Face Recognition techn
   <summary>📋Table of Contents</summary>
   <ol>
     <li>
-      <a href="#About The Project">About The Project</a>
+      <a href="#About-The-Project">About The Project</a>
       <ul>
         <li><a href="#Introduction">Introduction</a></li>
         <li><a href="#Features">Features</a></li>
-        <li><a href="### Technologies used"> Technologies used</a></li>
+        <li><a href="#Technologies-used"> Technologies used</a></li>
       </ul>
     </li>
-      <a href="#🏃Getting Sttarted">Getting Started</a>
+      <a href="#🏃Getting-Sttarted">Getting Started</a>
       <ul>
-        <li><a href="## Requirements">Requirements</a></li>
-        <li><a href="##Installation">Installation</a></li>
+        <li><a href="#Requirements">Requirements</a></li>
+        <li><a href="#Installation">Installation</a></li>
       </ul>
     </li>
     <li>
       <a href="#📚Documentation">Documentation</a>
       <ul>
-        <li><a href="##🤔 How it works?">How it works?</a></li>
+        <li><a href="#🤔How-it-works?">How it works?</a></li>
       </ul>
     <a href="#📗resources-used">Resources Used</a></li>
   </ol>
 </details>
 
-# Introduction
+## Introduction
 
 Detect & Recognize Faces from Live Feed, Static Image. Attendace is marked & saved in Csv format. Graphical User Interface is designed & build using [Tkinter](https://docs.python.org/3/library/tkinter.html) GUI and Library [OpenCV](https://opencv.org/).
 
-
+## Features
 ## 💻Technologies used
 #### Programming Languages : <img src="https://forthebadge.com/images/badges/made-with-python.svg" alt="Python"> 
 #### Databases : <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"> 
