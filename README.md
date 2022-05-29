@@ -1,9 +1,9 @@
 # <h1 align="center"> Microsoft-Engage-Project <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png" alt="Logo" width="25" height="25">
 
-  > [Live Demo](https://youtu.be/w6271lMbUZY)
-  > [Desktop App](https://drive.google.com/drive/folders/1YoQuccP8JjszRApLEOTeph60DwF_VxUI?usp=sharing)
+  > [Live Demo](https://youtu.be/w6271lMbUZY) | > [Desktop App](https://drive.google.com/drive/folders/1YoQuccP8JjszRApLEOTeph60DwF_VxUI?usp=sharing) |
   > [Workflow](https://drive.google.com/drive/folders/1mYyBT904klHHc_wApRjrhLz7jtPlqjzX?usp=sharing)
 </h1>
+|------|:----:|---------|
 
 Face Recognition for Tracking Attendance<br>
 A browser-based application to demonstrate application of Face Recognition technology.
