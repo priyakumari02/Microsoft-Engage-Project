@@ -97,6 +97,7 @@ pip install --user -r requirements.txt
 ### Algorithm
 
 - [Haar Cascade](https://towardsdatascience.com/face-detection-with-haar-cascade-727f68dafd08#:~:text=So%20what%20is%20Haar%20Cascade,Simple%20Features%E2%80%9D%20published%20in%202001.)
-- [LBPH Algorithm)](https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b)
+- [LBPH Algorithm](https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b)
 
+<hr>
 Thank you ! Microsoft Team for such a wonderful mentorship program ❤️
