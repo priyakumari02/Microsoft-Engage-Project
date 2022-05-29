@@ -33,10 +33,10 @@ Detect & Recognize Faces from Live Feed, Static Image. Attendace is marked & sav
 
 
 ## Technologies used
-#### Programming Languages : <img src="https://forthebadge.com/images/badges/made-with-python.svg" alt="Python"> 
-#### Libraries : <img src="https://forthebadge.com/images/badges/made-with-opencv.svg" alt="OpenCV">
-#### Databases : <img src="https://forthebadge.com/images/badges/made-with-sqlite.svg" alt="MySQL"> 
-#### Frameworks : <img src="https://forthebadge.com/images/badges/made-with-tkinter.svg" alt="Tkinter">
+#### Programming Languages : <img src="https://forthebadge.com/images/badges/python.svg" alt="Python"> 
+#### Libraries : <img src="https://forthebadge.com/images/badges/opencv.svg" alt="OpenCV">
+#### Databases : <img src="https://forthebadge.com/images/badges/sqlite.svg" alt="MySQL"> 
+#### Frameworks : <img src="https://forthebadge.com/images/badges/tkinter.svg" alt="Tkinter">
 #### Version Control : <img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>  
 
 # 🏃Getting Sttarted
