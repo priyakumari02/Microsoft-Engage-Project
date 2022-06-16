@@ -1,6 +1,6 @@
 # <h1 align="center"> Microsoft-Engage-Project <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png" alt="Logo" width="25" height="25">
 
-  > [Live Demo](https://youtu.be/w6271lMbUZY) <br>
+  > [Demo Video](https://youtu.be/w6271lMbUZY) <br>
   > [Desktop App](https://drive.google.com/drive/folders/1lyTn19RgnyZkyFGtCHysfAXCH_7_m-AU?usp=sharing) <br>
   > [Workflow](https://drive.google.com/drive/folders/1mYyBT904klHHc_wApRjrhLz7jtPlqjzX?usp=sharing)<br/>
 </h1>
@@ -36,7 +36,7 @@ A browser-based application to demonstrate application of Face Recognition techn
 
 ## Introduction
 
-Detect & Recognize Faces from Live Feed, Static Image. Attendace is marked & saved in Csv format. Graphical User Interface is designed & build using [Tkinter](https://docs.python.org/3/library/tkinter.html) GUI and Library [OpenCV](https://opencv.org/).
+Detect & Recognize Faces from Live Feed, Static Image. Attendance is marked & saved in Csv format. Graphical User Interface is designed & build using [Tkinter](https://docs.python.org/3/library/tkinter.html) GUI and Library [OpenCV](https://opencv.org/).
 
 ## Features
 ### Landing Page
